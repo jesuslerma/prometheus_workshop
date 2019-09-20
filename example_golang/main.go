@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	addr = flag.String("listen-address", ":8080", "The address to listen on for HTTP requests.")
+	addr = flag.String("address", ":8080", "The address to listen on for HTTP requests.")
 
 	start = time.Now()
 )
